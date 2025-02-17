@@ -32,6 +32,20 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      [
+        "expo-shazamkit",
+        {
+          "microphonePermission": "We need microphone access to recognize songs"
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "deploymentTarget": "15.1"
+          }
+        }
       ]
     ],
     "experiments": {
